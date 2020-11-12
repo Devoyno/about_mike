@@ -3,7 +3,7 @@ body {
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    padding: 25px;
+    padding: 28px 0 23px 10px;
     color: rgb(11, 165, 152);
     font-weight:bold;
 }
@@ -58,4 +58,17 @@ h3 {
     text-align:center;
     color:lightgray;
     padding:25px;
+}
+
+.form-container {
+    width:80%;
+}
+
+.btn{
+    border-radius: 0 !important;
+    background-color:rgb(11, 165, 152);
+    width:95px;
+    height:50px;
+    margin-left: -10px;
+    
 }
