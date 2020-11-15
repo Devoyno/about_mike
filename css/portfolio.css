@@ -3,16 +3,14 @@ body {
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    padding: 15px 0 15px 20px;
+    padding: 28px 0 23px 10px;
     color: rgb(11, 165, 152);
     font-weight:bold;
-    float:left;
 }
 
 h3 {
     font-size:16px;
 }
-
 
 .navbar-brand {
     background-color: rgb(11, 165, 152);
@@ -37,33 +35,17 @@ h3 {
   padding-top:120px;  
 }
 
-.col-sm-8 {
+.col-sm-9 {
     width:100%;
     background-color: white;
 }
 
-.card-head {
-    height:80px;
-    width:100%;
+.content-header {
+    height:100px;
     border-bottom: solid 1px lightgray;
 }
 
-.card-img {
-    margin-right: 20px;
-    background-attachment: fixed;
-    height:150px;
-    width:150px;
-    float:left;
-}
 
-#main {
-    display:flex;
-    justify-content: flex-start;
-}
-
-.content-body {
-    margin: 20px;
-}
 
 .footer {
     height:80px;
@@ -72,11 +54,9 @@ h3 {
     text-align:center;
     color:lightgray;
     padding:25px;
-    /* position:fixed;
-    margin-bottom:0; */
 }
 
-.container {
-    height:600px;
-    padding-top:100px;
+.picgrid {
+    height:100%;
+    overflow:hidden;
 }
