@@ -1,5 +1,5 @@
 # css_bootstrap_hw
+![Screenshot](ss.png)
 
-View Site at:
+View Site at: https://devoyno.github.io/css_bootstrap_hw/
 
-https://devoyno.github.io/css_bootstrap_hw/
