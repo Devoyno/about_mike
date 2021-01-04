@@ -1,6 +1,7 @@
-body {
-  
+html, body {
+    height: 100%;
 }
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     padding: 15px 0 15px 20px;
@@ -25,7 +26,7 @@ h3 {
 
 .content {
     width:100%;
-    height:800px;
+    height: calc(100vh - 135px);
     background-image: url('https://www.publicdomainpictures.net/pictures/240000/nahled/gray-graduating-lines-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,14 +49,6 @@ h3 {
     border-bottom: solid 1px lightgray;
 }
 
-.card-img {
-    margin-right: 20px;
-    background-attachment: fixed;
-    height:150px;
-    width:150px;
-    float:left;
-}
-
 #main {
     display:flex;
     justify-content: flex-start;
@@ -72,11 +65,20 @@ h3 {
     text-align:center;
     color:lightgray;
     padding:25px;
-    /* position:fixed;
-    margin-bottom:0; */
 }
 
 .container {
     height: auto;
     padding-top:100px;
+}
+
+.card-text {
+    display: inline;
+    float: none;
+    margin-top: 10px;
+}
+
+.photo {
+    width: 130px;
+    float: left;
 }

@@ -1,13 +1,21 @@
 
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     padding: 28px 0 23px 10px;
-    color: rgb(11, 165, 152);
-    font-weight:bold;
+    color: black;
 }
 
 h3 {
     font-size:16px;
+}
+
+h4 {
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .navbar-brand {
@@ -17,7 +25,8 @@ h3 {
 
 .content {
     width:100%;
-    height:800px;
+    height: 100%;
+    padding-bottom: 10px;
     background-image: url('https://www.publicdomainpictures.net/pictures/240000/nahled/gray-graduating-lines-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,5 +44,11 @@ h3 {
     text-align:center;
     color:lightgray;
     padding:25px;
+}
+
+.img-thumbnail {
+    margin: 10px;
+    border: 5px solid darkgray;
+    border-radius: 5px;
 }
 
