@@ -1,4 +1,4 @@
-# css_bootstrap_hw
+# about_mike
 
 ![screenshot](assets/screenshot.png)
 
